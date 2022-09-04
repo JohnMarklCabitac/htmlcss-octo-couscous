@@ -1,0 +1,68 @@
+
+h1{color: black;
+    margin-left: 10%;
+}
+body{
+    background-color:white;
+    color: black;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+div.container{
+	width: 80%;
+	margin:auto;
+
+}
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding: 20px;
+}
+.form-group label{
+    display: block;
+}
+.form-group input[type = "text"],.form-group textarea{
+    margin-top: 5px;
+    padding: 8px;
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 3px;
+}
+
+.checkbox{
+    display: inline-flex;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.note{
+    margin-bottom: 20px;
+    margin-top: 2px;
+    color: red;
+    font-size: 12px;
+}
+.note1{
+    margin-bottom: 20px;
+    margin-top: 4px;
+    color: red;
+    margin-left: 30px;
+    font-size: 12px;
+}
+h5{
+color: red;
+}
+.button1{
+    border: 2px solid rgb(7, 7, 158);
+    background-color: royalblue;
+    color: white;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button1:hover{
+    color:red;
+
+}
+.button1:active{
+    color: yellow;
+}
