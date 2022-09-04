@@ -42,7 +42,7 @@ a:visited{
 }
 
 .button{
-	background-color:#333;
+	background-color:purple;
 	color:#fff;
 	padding:10px 15px;
 	border:none;
@@ -193,7 +193,7 @@ a:visited{
 }
 
 .my-list li:first-child{
-	background: red;
+	border: red 5px;
 }
 
 .my-list li:last-child{
