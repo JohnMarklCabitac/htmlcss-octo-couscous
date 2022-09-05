@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+ font-family: sans-serif;
+}
+
+.form1{
+    height: 100%;
+    width: 100%;
+    background-image:url('covidBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    height: 480px;
+    width: 380px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.50);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px aquamarine;
+}
+.form-button{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px aqua;
+    border-radius: 30px;
+}
+.button1{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    position: relative;
+    border: 0;
+}
+#color-button{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height:100% ;
+    background: linear-gradient(to right, blue, royalblue,aqua);
+    border-radius: 30px;
+    transition: 0.5s;  
+}
+
+.form2{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input-label{
+    margin-left: 30px;
+
+}
+.forgot-password{
+    margin-left: 50%;
+    font-size: 13px;
+    cursor: pointer;
+}
+.forgot-password:hover{
+    color: blue;
+}
+.forgot-password:active{
+    color: white;
+}
+
+.input-space{
+    top:100px;
+    width: 280px;
+    margin-left: 45px;
+    margin-top: 5px;
+    margin-bottom:10px;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 8px;
+    outline: none;
+    background-color: transparent;
+}
+.sub-btn{
+    width: 18%;
+    padding: 10px;
+    cursor:pointer;
+    display: block;
+    background: linear-gradient(to right, blue, royalblue,aqua);
+    border-radius: 10px;
+    border: none;
+    margin-left: 55%;
+    margin-bottom: 10px;
+    margin-top: 10%;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.sub-btn:active{
+    color: white;
+}
+.check-box{
+    margin-left: 40px;
+    cursor: pointer;
+}
+span{
+    color:#777 ;
+    font-size: 12px;
+
+}

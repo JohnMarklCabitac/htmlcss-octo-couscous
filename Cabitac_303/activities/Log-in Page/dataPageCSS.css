@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.form1{
+    background-image: url(viewBackground.png);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+
+
+}
+.form-box1{
+    width: 480;
+    height: 580;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    margin-left: 50%;
+    margin-right: 25%;
+    position: relative;
+    background:white;
+    padding-bottom: 50px;
+}
+.table-head{
+    background-color: antiquewhite;
+}
